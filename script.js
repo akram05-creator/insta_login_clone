@@ -90,3 +90,9 @@ document.getElementById('facebook-login').addEventListener('click', function() {
         });
     });
 });
+document.getElementById('loginBtn').addEventListener('click', function() {
+    // إخفاء صفحة الترحيب
+    document.querySelector('.welcome-page').style.display = 'none';
+    // إظهار صفحة تسجيل الدخول
+    document.querySelector('.login-container').style.display = 'block';
+});
